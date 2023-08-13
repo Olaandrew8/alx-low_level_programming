@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (sucess)
  */
+
 int main(void)
 {
-	int i; 
+	int i;
 	int j;
 
 	for (i = 0; i < 100; i++)
@@ -17,7 +17,7 @@ int main(void)
 		{
 			if (i < j)
 			{
-				putchar((1 / 10) + 48);
+				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
 				putchar(' ');
 				putchar((j / 10) + 48);
