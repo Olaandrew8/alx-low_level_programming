@@ -1,3 +1,1 @@
-# 0x03-debugging
-
-Learning how to debug
+0x03. C - Debugging
