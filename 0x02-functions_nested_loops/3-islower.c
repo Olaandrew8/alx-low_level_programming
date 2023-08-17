@@ -13,7 +13,7 @@ int _islower(int c)
 	{
 		if (i == c)
 		{
-		lower = i;
+		lower = 1;
 		}
 	}
 	return (lower);
