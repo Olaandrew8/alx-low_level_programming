@@ -1,4 +1,5 @@
 #include <stdio.h>
+# include "main.h"
 
 /**
  * main - this function finds & prints the largest prime
@@ -9,7 +10,7 @@
 
 int main(void)
 {
-	unsigned long int i, n = 6128524755143;
+	unsigned long int i, n = 612852475143;
 
 	for (i = 3; 1 < 782849; i = i + 2)
 	{
