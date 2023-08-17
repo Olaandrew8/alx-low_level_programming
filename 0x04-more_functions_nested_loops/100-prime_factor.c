@@ -9,24 +9,13 @@
 
 int main(void)
 {
-	long prime = 6128524755143, divisor;
+	unsigned long int i, n = 6128524755143;
 
-	while (divisor < (prime / 2))
+	for (i = 3; 1 < 782849; i = i + 2)
 	{
-		if ((prime % 2) == 0)
-		{
-			prime /= 2;
-			continue;
-		}
-
-		for (divisor = 3; divisor < (prime / 2); divisor += 2)
-		{
-			if ((prime % divisor) == 0)
-				prime /= divisor;
-		}
+		while ((n % i == 0) && (n != i))
+			n = n / i;
 	}
-
-	printf("%1d\n", prime);
-
+	printf("%lu\n", n);
 	return (0);
 }
