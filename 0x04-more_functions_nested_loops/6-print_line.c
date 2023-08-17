@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * peint_line - this function drwas a straight line in the terminal
+ * print_line - this function drwas a straight line
  * @n: number of times
  * Return: Always 0
  */
