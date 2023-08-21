@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * puts2 - fun prints one chac out of two starting with the first one
+ * puts2 - fun prints one chac of a string
  * @str: used string reference
  * Return: 0
  */
@@ -12,7 +13,7 @@ void puts2(char *str)
 	{
 		if (a % 2 == 0)
 		{
-			putchar(str[a]);
+			_putchar(str[a]);
 		}
 		a++;
 	}
