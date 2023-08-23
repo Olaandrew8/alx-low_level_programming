@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
  * _strncat - func concatenates two string using n bytes from src
  * @dest: Input value
  * @src: Input value
  * @n: Input value
- * Return dest
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
