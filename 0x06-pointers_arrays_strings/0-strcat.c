@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcat - func concatenates two strings
- * @dest: Irout value
- * @src: Irout value
+ * @dest: Input value
+ * @src: Input value
  * Return: void
  */
 char *_streat(char *dest, char *src)
