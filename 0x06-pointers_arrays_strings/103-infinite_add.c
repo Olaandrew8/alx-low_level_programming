@@ -29,7 +29,7 @@ void rev_string(char *n)
  * @n1: text reps of first number to add
  * @n2: text reps of second number to add
  * @r: pointer to beffer
- * @size_e: buffer size
+ * @size_r: buffer size
  * Return: pointer to calling func
  */
 
