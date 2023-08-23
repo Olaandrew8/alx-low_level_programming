@@ -2,7 +2,7 @@
 /**
  * leet - func encode into 1337speak
  * @n: Input value
- * Return n value
+ * Return: n value
  */
 char *leet(char *n)
 {
